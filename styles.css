@@ -15,16 +15,13 @@ body{
     background-size: cover;
 }
 #about{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: black;
 }
-.mission{
-    min-height: 100vh;
-    background-color: blue;
-}
+
 .whyus{
     min-height: 100vh;
-    background-color: green;
+    background-color: black;
 }
 .form{
     min-height: 100vh;
@@ -42,19 +39,20 @@ body{
 .main{
     color: white;
     margin: 0 7vw 5vh 7vw;
+    overflow: hidden;
 
 }
 h1 {
-    font-size: 3.5vh;
+    font-size: 3vh;
 }
 h5 {
     font-size: 2vh;
 }
 p {
-    font-size: 2vmin;
+    font-size: 2vh;
 }
 @media (min-width: 993px) { 
     a{
-        margin: 10vw 0 20vw 0!important;
+        margin: 17vh 0 20vw 0!important;
     }
  }
