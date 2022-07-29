@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Product Sans', sans-serif;
+}
+.home{
+    min-height: 100vh;
+    background-image: url("/media/g.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#about{
+    min-height: 100vh;
+    background-color: black;
+}
+.mission{
+    min-height: 100vh;
+    background-color: blue;
+}
+.whyus{
+    min-height: 100vh;
+    background-color: green;
+}
+.form{
+    min-height: 100vh;
+    background-color: red;
+}
+    /* CSS for equinoxe.svg */
+#eqtopsvg {
+    display: block !important; 
+    margin: 1em auto 25vh auto;
+}
+.container {
+    display: inline !important;
+}   
+    /* CSS for main-content */
+.main{
+    color: white;
+    margin: 0 7vw 5vh 7vw;
+
+}
+h1 {
+    font-size: 3.5vh;
+}
+h5 {
+    font-size: 2vh;
+}
+p {
+    font-size: 2vmin;
+}
+@media (min-width: 993px) { 
+    a{
+        margin: 10vw 0 20vw 0!important;
+    }
+ }
