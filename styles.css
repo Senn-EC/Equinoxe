@@ -7,7 +7,7 @@ body{
 }
 .home{
     min-height: 100vh;
-    background-image: url("/media/g.svg");
+    background-image: url("media/g.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-color: black;
@@ -20,7 +20,7 @@ body{
 }
 
 .whyus{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: black;
 }
 .form{
@@ -30,7 +30,7 @@ body{
     /* CSS for equinoxe.svg */
 #eqtopsvg {
     display: block !important; 
-    margin: 1em auto 25vh auto;
+    margin: 1em auto 25vw auto;
 }
 .container {
     display: inline !important;
@@ -45,11 +45,16 @@ body{
 h1 {
     font-size: 3vh;
 }
+h2{
+    color: white;
+    margin-bottom: 2vh;
+}
 h5 {
     font-size: 2vh;
 }
 p {
     font-size: 2vh;
+    color: #BFBFBF;
 }
 @media (min-width: 993px) { 
     a{
