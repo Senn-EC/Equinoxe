@@ -7,7 +7,7 @@ body{
 }
 .home{
     min-height: 100vh;
-    background-image: url("media/g.svg");
+    background-image: url("../image/g.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-color: black;
@@ -116,7 +116,7 @@ form{
 .box {
     display: flex;
     align-items:center;
-    margin: 2vh 6vw 0 6vw;
+    margin: 4vh 6vw 0 6vw;
     justify-content: space-between;
     text-align: center;
  }
@@ -144,7 +144,7 @@ form{
 }
 h1{
     color: white;
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 h2{
     color: white; 
