@@ -48,5 +48,3 @@ res.set({
 return res.redirect('index.html');
 }).listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-
-console.log("server running");
