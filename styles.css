@@ -15,17 +15,15 @@ body{
     background-size: cover;
 }
 #about{
-    /* min-height: 100vh; */
     background-color: black;
 }
 
 .whyus{
-    /* min-height: 100vh; */
     background-color: black;
 }
 .form{
     min-height: 100vh;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
 }
     /* CSS for equinoxe.svg */
 #eqtopsvg {
@@ -40,7 +38,6 @@ body{
     color: white;
     margin: 0 7vw 5vh 7vw;
     overflow: hidden;
-
 }
 h1 {
     font-size: 3vh;
@@ -48,6 +45,7 @@ h1 {
 h2{
     color: white;
     margin-bottom: 2vh;
+    font-size: 2.5vh
 }
 h5 {
     font-size: 2vh;
@@ -61,3 +59,104 @@ p {
         margin: 17vh 0 20vw 0!important;
     }
  }
+ .group:hover {
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px;
+    transition-duration: 2s;
+  }
+.ico{
+    filter: invert(100%);
+    height: 5vh;
+    margin: 2vh;
+}
+main{
+    width: 65%;
+    height: auto;
+    margin: 6vh 0 0vh 0;
+}
+
+/* CSS for the form (left-side) */
+::placeholder{
+    color: white !important;
+}
+.form-input{
+    margin:4vh 0 4vh 0; 
+    border: 0; 
+    border-bottom: 1px solid rgb(255, 255, 255); 
+    outline:none !important; 
+    border-radius: 0 !important;
+    background-color: black;
+    box-shadow: 0 !important;
+}
+.btn-form{
+    padding :1vh 3vh ;
+}
+.header-form{
+    margin-top: 8vh;
+    margin-left: 10vh;
+}
+#InputName, #InputEmail, #InputNumber, #InputTxt{
+    background-color: black;
+}
+.form-control:focus {
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+form{
+    margin: 0 10vh 0 10vh;
+}
+/* CSS for form (right-side) */
+.right-title{
+    margin:8vh 0 2vh; 
+}
+.txt-center{
+    text-align: center;
+}
+.box {
+    display: flex;
+    align-items:center;
+    margin: 2vh 6vw 0 6vw;
+    justify-content: space-between;
+    text-align: center;
+ }
+.left-side-lg{
+    text-align: left;
+}
+ @media (max-width: 991px) { 
+    .left-side-lg{
+        text-align: center;
+    }
+    form{
+        margin: 0vh 4vh 0 4vh !important;
+    }
+    .txt-centerr{
+        text-align: center;
+    }
+    .header-form{
+        margin-top: 8vh;
+        margin-left: 0vh;
+    }
+ }
+ body{
+    background-color: black;
+    font-family: 'Product Sans', sans-serif;
+}
+h1{
+    color: white;
+    font-size: 4vh;
+}
+h2{
+    color: white; 
+}
+h5{
+    color: #BFBFBF;
+}
+p{
+    font-size: 2vh;
+    color: #BFBFBF;
+    margin-top: 1vh;
+}
+input{
+    margin: 0 4vh 0 4vh;
+}
