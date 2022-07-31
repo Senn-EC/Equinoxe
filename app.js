@@ -1,5 +1,6 @@
 var express=require("express");
 var bodyParser=require("body-parser");
+const PORT = process.env.PORT || 5000
 
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/Equinoxe');
@@ -28,7 +29,7 @@ app.post('/add', function(req,res){
 		"name": Name,
 		"email":Email,
 		"number":Number,
-		"phone":Txt
+		"txt":Txt
 	}
 db.collection('details').insertOne(data,function(err, collection){
 		if (err) throw err;
@@ -45,7 +46,5 @@ res.set({
 	'Access-control-Allow-Origin': '*'
 	});
 return res.redirect('index.html');
-}).listen(3000)
+}).listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-
-console.log("server listening at port 3000");
